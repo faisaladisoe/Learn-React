@@ -1,0 +1,19 @@
+.new-person {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    display: block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
+}
+
+.button {
+    background-color: pink;
+    padding: 10px 20px;
+}
