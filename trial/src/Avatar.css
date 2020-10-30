@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar__container {
+    background-color: whitesmoke;
+    padding: 2rem 0 10rem;
+}
+
+.avatar__subcontainer {
+    margin: 1rem auto;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+}
+
+.avatar__subcontainer:hover {
+    background-color: burlywood;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#avatar__img {
+    border-radius: 20px;
+    height: 10rem;
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+#avatar__name, #avatar__age {
+    text-align: center;
+    color: rgb(165, 68, 68);
+}
+
+#avatar__name {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#avatar__age {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}

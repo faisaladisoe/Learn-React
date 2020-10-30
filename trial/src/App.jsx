@@ -1,14 +1,12 @@
 import React from 'react';
 import Greeting from './Greeting';
-import Comment from './Comment';
-import PracticeState from './PracticeState';
+import Card from './Card';
 
 const App = () => {
     return (
         <div>
             <Greeting name = 'Faisal' />
-            <Comment comment = "This is so damn good" />
-            <PracticeState />
+            <Card />
         </div>
     );
 }
