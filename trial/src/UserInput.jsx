@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from './Avatar';
+import Avatar from './Avatar/Avatar';
 
 const UserInput = props => {
     return (
@@ -7,7 +7,6 @@ const UserInput = props => {
             <Avatar 
                 user = { props.author }
             />
-            { props.comment }
         </div>
     );
 }

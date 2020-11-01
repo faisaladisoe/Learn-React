@@ -1,10 +1,10 @@
 import React from 'react';
-import Comment from './Comment';
+import UserData from './UserData';
 
 const Card = () => {
     return (
         <div>
-            <Comment />
+            <UserData />
         </div>
     );
 }
